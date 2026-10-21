@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>城區綠洲慢步：綠川、宮原眼科與酷庫選物 | yuly0601</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <header class="navbar">
+    <div class="logo">台中慢步・綠川特輯</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">城區概念</a></li>
+        <li><a href="#spots">精選景點</a></li>
+        <li><a href="#route">漫遊路線</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 主視覺區 Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>綠意與老時光的交會</h1>
+      <p>順著水流走進台中舊城區，探訪綠川、紅磚老屋與珍藏童年的老玩具店。</p>
+      <a href="#spots" class="btn">開始探索</a>
+    </div>
+  </section>
+
+  <!-- 概念介紹 -->
+  <section id="about" class="container intro-section">
+    <h2>漫步台中城區綠洲</h2>
+    <p>
+      台中舊城區以綠川為動脈，串起歷史建築與巷弄聚落。遠離車水馬龍，沿著水岸木棧道前行，
+      你可以在這裡品味紅磚老建築的華麗新生，也能在老巷深處找到封存時光的舊道具與童趣玩具。
+    </p>
+  </section>
+
+  <!-- 景點介紹卡片區 -->
+  <section id="spots" class="container">
+    <h2 class="section-title">焦點散策地標</h2>
+    <div class="card-grid">
+
+      <!-- 景點 1: 綠川 -->
+      <article class="card">
+        <div class="card-img-placeholder">
+          <!-- 若有真實圖片請改為: <img src="images/luchuan.jpg" alt="綠川水岸廊道"> -->
+          <span>綠川水岸廊道</span>
+        </div>
+        <div class="card-body">
+          <span class="tag">自然水岸</span>
+          <h3>綠川水岸廊道 (Shin Sei Green Waterway)</h3>
+          <p>
+            經過整治後重生的綠川，結合水文化景觀與綠植栽步道，白天宛如市中心的綠洲，夜晚則映照粼粼波光與橋身燈景，是散步放鬆的最佳起點。
+          </p>
+        </div>
+      </article>
+
+      <!-- 景點 2: 宮原眼科 -->
+      <article class="card">
+        <div class="card-img-placeholder">
+          <!-- 若有真實圖片請改為: <img src="images/miyahara.jpg" alt="宮原眼科"> -->
+          <span>宮原眼科</span>
+        </div>
+        <div class="card-body">
+          <span class="tag">歷史建築</span>
+          <h3>宮原眼科 (Miyahara)</h3>
+          <p>
+            由 1927 年日治時期眼科醫院改建而成，保留了紅磚外牆與古樸騎樓。挑高的挑空大廳宛如古典圖書館，是品嚐特製冰淇淋、挑選糕點伴手禮的必訪地標。
+          </p>
+        </div>
+      </article>
+
+      <!-- 景點 3: 酷庫 kuku -->
+      <article class="card">
+        <div class="card-img-placeholder">
+          <!-- 若有真實圖片請改為: <img src="images/kuku.jpg" alt="酷庫 kuku"> -->
+          <span>酷庫 kuku</span>
+        </div>
+        <div class="card-body">
+          <span class="tag">懷舊古道具</span>
+          <h3>酷庫 kuku（古道具・玩具店）</h3>
+          <p>
+            隱身在舊城區街角的復古雜貨與玩具選品店，店內收藏了大量老膠玩具、鐵皮玩具與懷舊民藝品。推開門宛如走進時光膠囊，充滿驚喜與老物件的溫潤魅力。
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- 路線指南 -->
+  <section id="route" class="container route-section">
+    <h2>半日散策推薦行程</h2>
+    <ol class="route-list">
+      <li><strong>第一站：台中火車站出發</strong> → 步行 3 分鐘抵達「綠川水岸廊道」感受微風與綠蔭。</li>
+      <li><strong>第二站：宮原眼科</strong> → 欣賞挑高圖書館風格內裝，品嚐茶香冰淇淋。</li>
+      <li><strong>第三站：巷弄探訪「酷庫 kuku」</strong> → 尋找復古老玩具與台灣早期老道具，為旅程帶回獨特回憶。</li>
+    </ol>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>作業製作：yuly0601 ｜ 台中綠川文化漫步主題作業</p>
+  </footer>
+
+</body>
+</html>
